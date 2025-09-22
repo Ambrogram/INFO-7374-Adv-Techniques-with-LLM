@@ -1,0 +1,15 @@
+{
+  "random_state": 7,
+  "split": {
+    "train": 0.72,
+    "val": 0.08,
+    "test": 0.2
+  },
+  "validation_accuracy": {
+    "3": 0.45,
+    "9": 0.5625,
+    "21": 0.5875
+  },
+  "best_k": 21,
+  "test_accuracy": 0.595
+}
