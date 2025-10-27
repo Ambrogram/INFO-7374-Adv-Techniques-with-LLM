@@ -1,0 +1,21 @@
+{
+  "python_version": "2.6.0+cu124 (torch)",
+  "device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "dtype": "float16",
+  "models": {
+    "translation": "Helsinki-NLP/opus-mt-fr-en",
+    "summarization": "facebook/bart-large-cnn",
+    "sentiment": "distilbert-base-uncased-finetuned-sst-2-english"
+  },
+  "input_french": "J'apprécie le sérieux avec lequel ce restaurant prend les allergies alimentaires. En tant que personne allergique aux noix, je me sentais complètement en sécurité en dînant ici. De plus, leurs options sans gluten et végétaliennes ont été une agréable surprise. Fortement recommandé à toute personne ayant des restrictions alimentaires",
+  "translated_english": "I appreciate the seriousness with which this restaurant takes food allergies. As an allergic person to nuts, I felt completely safe dining here. Moreover, their gluten-free and vegan options were a pleasant surprise. Highly recommended to anyone with dietary restrictions",
+  "summary_english": "I appreciate the seriousness with which this restaurant takes food allergies. As an allergic person to nuts, I felt completely safe dining here. Their gluten-free and vegan options were a pleasant surprise.",
+  "sentiment_label": "POSITIVE",
+  "sentiment_score": 0.9997,
+  "latency_seconds": {
+    "translate": 3.24,
+    "summarize": 47.006,
+    "sentiment": 6.995,
+    "total": 57.241
+  }
+}

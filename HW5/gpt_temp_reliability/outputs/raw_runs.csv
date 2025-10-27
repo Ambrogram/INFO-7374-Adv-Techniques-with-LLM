@@ -1,0 +1,11 @@
+model,temperature,run_index,output_text,timestamp
+gpt-4o-mini,0.1,1,"hypovolemic shock, septic shock, cardiogenic shock",1761546106.6637197
+gpt-4o-mini,0.1,2,"hypovolemia, sepsis, adrenal insufficiency",1761546108.4383798
+gpt-4o-mini,0.1,3,"hypovolemia, sepsis, adrenal insufficiency",1761546110.1171792
+gpt-4o-mini,0.1,4,"Shock, Dehydration, Anemia",1761546111.6366355
+gpt-4o-mini,0.1,5,"hypovolemic shock, septic shock, cardiogenic shock",1761546112.6761277
+gpt-4o-mini,1.4,1,"Dehydration, Anemia, Septicemia",1761546113.8233783
+gpt-4o-mini,1.4,2,"hypovolemic shock, septic shock, adrenal insufficiency",1761546115.4060543
+gpt-4o-mini,1.4,3,"hypovolemic shock, cardiogenic shock, septic shock",1761546116.8760471
+gpt-4o-mini,1.4,4,"hypovolemia, septic shock, cardiogenic shock",1761546117.7253814
+gpt-4o-mini,1.4,5,"hypovolemic shock, sepsis, arrhythmia",1761546118.684188
