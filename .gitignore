@@ -1,36 +1,124 @@
-# ---- Python ----
+# ==========================================
+# 🔒 Secrets / Environment files
+# ==========================================
+.env
+*/.env
+.env.*
+*.key
+*.pem
+*.cert
+*.json.secret
+secrets/
+credentials/
+token_*
+apikey_*
+
+# ==========================================
+# 🐍 Python general
+# ==========================================
 __pycache__/
 *.py[cod]
+*$py.class
 *.pyo
 *.pyd
+*.so
+*.egg
 *.egg-info/
+dist/
+build/
+develop-eggs/
+.eggs/
+MANIFEST
+*.manifest
+*.spec
 
-# ---- Virtual Envs ----
+# ==========================================
+# 📦 Virtual environments
+# ==========================================
 .venv/
 venv/
 env/
 */.venv/
 */venv/
 */env/
+ENV/
+env.bak/
+python_env/
+pip-wheel-metadata/
 
-# ---- Jupyter ----
+# ==========================================
+# 🧪 Jupyter
+# ==========================================
 .ipynb_checkpoints/
+*/.ipynb_checkpoints/
 
-# ---- Models / Data ----
+# ==========================================
+# 🤖 Models / Data / Checkpoints
+# ==========================================
 models/
 checkpoints/
-*.bin
-*.safetensors
-*.pt
-*.h5
-*.ckpt
 */models/
 */checkpoints/
+*.bin
+*.pt
+*.pth
+*.h5
+*.ckpt
+*.onnx
+*.tflite
+*.npz
+*.npy
+data/
+datasets/
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.parquet
+*.pkl
+*.joblib
+*.sav
 
-# ---- Logs ----
+# ==========================================
+# 🧾 Logs / Outputs
+# ==========================================
 logs/
 *.log
-
-# ---- OS ----
+*.out
+*.err
+*.tmp
+*.bak
+*.swp
+*.swo
 .DS_Store
+
+# ==========================================
+# ⚙️ OS / IDE
+# ==========================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
 Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# VSCode / JetBrains / Others
+.vscode/
+.idea/
+*.code-workspace
+*.iml
+*.sublime-workspace
+*.sublime-project
+
+# ==========================================
+# 🧰 Git / Misc
+# ==========================================
+.gitignore
+.gitmodules
+*.lock
+*.orig
+*.rej
+*.patch
